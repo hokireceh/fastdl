@@ -1,0 +1,25 @@
+{
+  "name": "insta-saver-bot",
+  "version": "0.1.6",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bullmq": "^5.34.7",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.4.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "nodemon": "^3.0.1",
+    "pg": "^8.16.3",
+    "puppeteer": "^22.12.0",
+    "sequelize": "^6.37.7"
+  }
+}
